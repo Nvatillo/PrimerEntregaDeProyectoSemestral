@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActividadAndroid</string>
+    <string-array name="perfiles">
+        <item>Administrador</item>
+        <item>Estudiante</item>
+    </string-array>
+</resources>
