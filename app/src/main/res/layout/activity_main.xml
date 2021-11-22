@@ -87,7 +87,6 @@
                 android:orientation="horizontal">
 
 
-
                 <ImageView
                     android:id="@+id/Portal"
                     android:layout_width="wrap_content"
