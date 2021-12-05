@@ -54,4 +54,9 @@ public class Intro extends AppCompatActivity {
         Intent intent = new Intent(this,Login.class);
         startActivity(intent);
     }
+
+    public void verAvisos(View v){
+        Intent intent = new Intent(this,AgregarAviso.class);
+        startActivity(intent);
+    }
 }

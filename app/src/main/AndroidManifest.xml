@@ -16,6 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ActividadAndroid">
         <activity
+            android:name=".EditarAviso"
+            android:exported="true" />
+        <activity
+            android:name=".ListaAvisos"
+            android:exported="true" />
+        <activity
+            android:name=".AgregarAviso"
+            android:exported="true" />
+        <activity
             android:name=".CrearAsignatura"
             android:exported="true" />
         <activity

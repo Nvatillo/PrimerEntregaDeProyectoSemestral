@@ -14,10 +14,19 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#DCDADA"
+            android:orientation="vertical"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -80,14 +89,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="26sp"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:textSize="26sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="69dp"
             android:layout_marginLeft="10sp"
             android:layout_marginTop="30sp"
             android:layout_marginRight="10sp"
@@ -97,15 +106,15 @@
             <ImageView
                 android:id="@+id/credencial"
                 android:layout_width="match_parent"
-                android:layout_height="85dp"
-                android:onClick="credencial"
+                android:layout_height="37dp"
+                android:onClick="verAvisos"
                 app:srcCompat="@drawable/outline_contact_mail_24" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CRECENCIAL"
+                android:text="AVISOSSS"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="24sp"
@@ -114,7 +123,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="134dp"
+            android:layout_height="69dp"
             android:layout_marginLeft="10sp"
             android:layout_marginTop="10sp"
             android:layout_marginRight="10sp"
@@ -124,7 +133,7 @@
             <ImageView
                 android:id="@+id/historialCurso"
                 android:layout_width="match_parent"
-                android:layout_height="85dp"
+                android:layout_height="37dp"
                 android:onClick="historialCurso"
                 app:srcCompat="@drawable/outline_article_24" />
 
@@ -188,15 +197,16 @@
             android:orientation="vertical"
             android:paddingTop="10sp">
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="58dp"
-                android:layout_marginLeft="10sp"
-                android:layout_marginRight="10sp"
-                android:text="Salir de cuenta"
-                android:onClick="volverLogin"/>
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:onClick="volverLogin"
+            android:text="Salir de cuenta" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

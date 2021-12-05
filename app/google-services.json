@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "668402878388",
+    "firebase_url": "https://proyectofinalandroidfirebase-default-rtdb.firebaseio.com",
+    "project_id": "proyectofinalandroidfirebase",
+    "storage_bucket": "proyectofinalandroidfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668402878388:android:9a525a6f2ab23fb31614e1",
+        "android_client_info": {
+          "package_name": "com.example.actividadandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668402878388-mf0qu6hbfhpg5vn03j8cih2ksb8kciq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW0nr8OuHLzdpncs9g1lcujcFVl9g-ugA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668402878388-mf0qu6hbfhpg5vn03j8cih2ksb8kciq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
